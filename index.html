@@ -19,29 +19,20 @@
     <div class="container-fluid">
         <div class="row" id="listener">
             <div class="col-6">            
-                <div class="border border-danger" style="background-color: darkgray;">   
+                <div class="border border-danger border-2" style="background-color: darkgray;">   
                     <form id="empForm" onsubmit="return false">     
                         <label style="width: 250px;">8-Digit Employee ID</label>
-                        <br>
                         <input id="id" type="text" required="yes" maxlength="8">
-                        <br>
                         <label style="width: 100px;">Full Name</label>
-                        <br>
                         <input id="name" type="text"" required="yes" maxlength="None">
-                        <br>
                         <label style="width: 150px;">4-Digit Extension</label>
-                        <br>
                         <input id="ext" type="text" required="yes" maxlength="4">
-                        <br>
                         <label>Email</label>
-                        <br>
                         <input id="email" type="email" required="yes" maxlength="None">
-                        <br>
                         <label>Department</label>
-                        <br>
                         <select id="department" type="select" required="yes">
                             <option value="">Please choose:</option>
-                            <option value="addministrative">Administrative</option>
+                            <option value="administrative">Administrative</option>
                             <option value="engineering">Engineering</option>
                             <option value="executive">Executive</option>
                             <option value="marketing">Marketing</option>
@@ -54,7 +45,7 @@
                 </div>
             </div>
             <div class="col-6" id="message">
-                Filling all the form, then <br> 
+                Filling all the forms, then <br> 
                 <b>double-click</b> or hit <b>Add Employee</b> <br>
                 to submit data.<br>
                 You <b>can't submit</b> if any fields are blank.
